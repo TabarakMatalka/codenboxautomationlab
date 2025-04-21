@@ -46,6 +46,15 @@ public class AppTest {
         Thread.sleep(1000);
         inputField.sendKeys(Keys.chord(Keys.ARROW_DOWN,Keys.ENTER));
 	}
+	
+	@Test(priority = 3)
+	public void staticDropdownList() throws InterruptedException {
+		Thread.sleep(1000);
+		 Select staticDropdownList = new Select(driver.findElement(By.id("dropdown-class-example")));
+		 int randomOptionIndex=rand.nextInt(3);
+		 Thread.sleep(1000);
+		 staticDropdownList.selectByValue("option"+randomOptionIndex);
+	}
 
 	@AfterTest
 	public void tearDown() {

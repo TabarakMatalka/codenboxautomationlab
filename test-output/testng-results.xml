@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-21T18:32:26 GMT+03:00" name="Default suite" finished-at="2025-04-21T18:32:33 GMT+03:00" duration-ms="6247">
+  <suite started-at="2025-04-21T19:01:31 GMT+03:00" name="Default suite" finished-at="2025-04-21T19:01:41 GMT+03:00" duration-ms="9859">
     <groups>
     </groups>
-    <test started-at="2025-04-21T18:32:26 GMT+03:00" name="Default test" finished-at="2025-04-21T18:32:33 GMT+03:00" duration-ms="6247">
+    <test started-at="2025-04-21T19:01:31 GMT+03:00" name="Default test" finished-at="2025-04-21T19:01:41 GMT+03:00" duration-ms="9859">
       <class name="codenboxautomationlab.codenboxautomationlab.AppTest">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:codenboxautomationlab.codenboxautomationlab.AppTest@5e01a982]" started-at="2025-04-21T18:32:26 GMT+03:00" name="mySetup" finished-at="2025-04-21T18:32:33 GMT+03:00" duration-ms="6099" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:codenboxautomationlab.codenboxautomationlab.AppTest@58fb7731]" started-at="2025-04-21T19:01:31 GMT+03:00" name="mySetup" finished-at="2025-04-21T19:01:38 GMT+03:00" duration-ms="6345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="RadioButton()[pri:1, instance:codenboxautomationlab.codenboxautomationlab.AppTest@5e01a982]" started-at="2025-04-21T18:32:33 GMT+03:00" name="RadioButton" finished-at="2025-04-21T18:32:33 GMT+03:00" duration-ms="99" status="PASS">
+        <test-method signature="radioButton()[pri:1, instance:codenboxautomationlab.codenboxautomationlab.AppTest@58fb7731]" started-at="2025-04-21T19:01:38 GMT+03:00" name="radioButton" finished-at="2025-04-21T19:01:38 GMT+03:00" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RadioButton -->
+        </test-method> <!-- radioButton -->
+        <test-method signature="dynamicDropdownList()[pri:2, instance:codenboxautomationlab.codenboxautomationlab.AppTest@58fb7731]" started-at="2025-04-21T19:01:38 GMT+03:00" name="dynamicDropdownList" finished-at="2025-04-21T19:01:39 GMT+03:00" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicDropdownList -->
+        <test-method signature="staticDropdownList()[pri:3, instance:codenboxautomationlab.codenboxautomationlab.AppTest@58fb7731]" started-at="2025-04-21T19:01:39 GMT+03:00" name="staticDropdownList" finished-at="2025-04-21T19:01:41 GMT+03:00" duration-ms="2112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staticDropdownList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:codenboxautomationlab.codenboxautomationlab.AppTest@58fb7731]" started-at="2025-04-21T19:01:41 GMT+03:00" name="tearDown" finished-at="2025-04-21T19:01:41 GMT+03:00" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- codenboxautomationlab.codenboxautomationlab.AppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
